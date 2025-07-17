@@ -1,3 +1,19 @@
 name: NodeJs Github Action
 
 on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - uses: action/checkout@v3 # checkout repository
+      - name: Use Node
+
+        uses: action/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: npm install
+      - name: Run test
+        run: npm test
