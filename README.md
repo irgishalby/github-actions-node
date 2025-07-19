@@ -11,7 +11,7 @@ This is a simple Node.js project using Express and GitHub Actions to demonstrate
 ## Getting Started
 
 ```bash
-git clone https://github.com/your-username/github-actions-node
+git clone https://github.com/irgishalby/github-actions-node
 cd github-actions-node
 npm install
 npm test
