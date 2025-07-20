@@ -72,7 +72,7 @@ docker run -p 3000:3000 my-node-api
 
 3. Akses aplikasi:
 
-* [http://localhost:3000/testNode](http://localhost:3000/testNode) 
+* [http://localhost:3000/hello](http://localhost:3000/hello) 
 
 ---
 
